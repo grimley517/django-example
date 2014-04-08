@@ -4,7 +4,7 @@ import unittest
 class tests(unittest.TestCase):
     
     def setUp(self):
-        self.browser = webdriver.Chrome()
+        self.browser = webdriver.Safari()
         
     
     def tearDown(self):
