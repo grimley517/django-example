@@ -1,0 +1,2 @@
+easy_install django
+easy_install selenium
