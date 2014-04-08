@@ -3,11 +3,11 @@ import unittest
 
 class tests(unittest.TestCase):
     
-    def setup(self):
+    def setUp(self):
         self.browser = webdriver.Chrome()
         
     
-    def teardown(self):
+    def tearDown(self):
         self.browser.quit()
         
     def test1(self):
