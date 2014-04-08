@@ -6,7 +6,6 @@ class tests(unittest.TestCase):
     def setUp(self):
         self.browser = webdriver.Safari()
         
-    
     def tearDown(self):
         self.browser.quit()
         
